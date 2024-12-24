@@ -1,13 +1,14 @@
 import styled from "styled-components"
 
 export const NotionJavascript=()=>{
+    const pdf=`https://drive.google.com/file/d/10v2PEhNRspRtRzhHoBnB5To4s1BicA1-/view?usp=sharing`
     return(
        <>
        <h1>Notion Javascript</h1>
         <Div>
          <Iframe
-            src="https://ebony-porter-4c1.notion.site/Javascript-2e03079cd4924a189695356512ee9715?pvs=73"
-            title="Notion Document"
+            src={pdf}
+            type="application/pdf" 
             >
          </Iframe>
 
