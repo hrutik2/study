@@ -5,6 +5,7 @@ import { INITAIL_data_javascript } from "../data"
 export const JavaScript=()=>{
     return (
         <div>
+            
             <h1>JavaScript</h1>
             <Container>
             {INITAIL_data_javascript.map((el,index)=>(

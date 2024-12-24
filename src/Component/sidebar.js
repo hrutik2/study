@@ -4,7 +4,9 @@ export const Sidebar=()=>{
     return (
         <Div>
             <StyledLink to="/"><h1>JavaScript</h1></StyledLink>
+            <StyledLink to="/notionJavascript"><h1>JavaScript_2</h1></StyledLink>
             <StyledLink to="/react"><h1>React</h1></StyledLink>
+
         </Div>
     )
 }
