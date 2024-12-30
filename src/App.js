@@ -5,11 +5,12 @@ import { JavaScript } from './pages.js/javascript';
 import { Sidebar } from './Component/sidebar';
 import styled from 'styled-components';
 import { AllRoutes } from './routes/allRoutes';
+import { NAV } from './Component/navbar';
 
 function App() {
   return (
     <Container >
-      <Sidebar/>
+       <NAV/>
       <Div>
        <AllRoutes/>
       </Div>
@@ -21,12 +22,13 @@ export default App;
 
 const Container=styled.div`
  width:100%;
- display:flex;
+ 
  
 `
 const Div=styled.div`
  width:80%;
- height:95vh;
+ margin:auto;
+ 
  text-align:left;
  
  padding:20px;

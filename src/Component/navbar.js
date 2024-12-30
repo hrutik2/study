@@ -1,7 +1,7 @@
+import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { styled } from "styled-components";
 
-export const Sidebar = () => {
+export const NAV = () => {
   return (
     <Div>
       <StyledLink to="/"><h1>JavaScript</h1></StyledLink>
@@ -12,24 +12,28 @@ export const Sidebar = () => {
   );
 };
 
-const Div = styled.div`
-  width: 20%;
-  height: 99vh;
-  background-color: cyan;
-  text-align: left;
-  padding: 10px;
+const Div=styled.div`
+width:100%;
+background-color:cyan;
+color:black;
+display: flex;
+justify-content:space-around;
+`
 
-  @media (max-width: 768px) {
-    width: 30%; /* Adjust sidebar width for tablets */
-    height: 95vh;
-  }
 
-  @media (max-width: 480px) {
-    width: 50%; /* Adjust sidebar width for smartphones */
-    height: auto; /* Allow height to adjust based on content */
-    padding: 8px; /* Reduce padding for smaller screens */
-  }
-`;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const StyledLink = styled(Link)`
   text-decoration: none;

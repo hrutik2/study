@@ -268,6 +268,218 @@ export const Initail_Data_react=[
       
       
 ]
+export const questions = [
+  {
+    id: 1,
+    input: "const arr = [1, 2, 3, 4]; const result = arr.map(x => x * 2);",
+    question: "What will be the value of `result`?",
+    options: ["[1, 2, 3, 4]", "[2, 4, 6, 8]", "[3, 6, 9, 12]", "[undefined]"],
+    correctAnswer: "[2, 4, 6, 8]"
+  },
+  {
+    id: 2,
+    input: "const obj = { a: 1, b: 2 }; const keys = Object.keys(obj);",
+    question: "What will be the value of `keys`?",
+    options: ["['a', 'b']", "['1', '2']", "['a']", "['b']"],
+    correctAnswer: "['a', 'b']"
+  },
+  {
+    id: 3,
+    input: "const x = 10; const y = '10'; const isEqual = x == y;",
+    question: "What will be the value of `isEqual`?",
+    options: ["true", "false", "undefined", "null"],
+    correctAnswer: "true"
+  },
+  {
+    id: 4,
+    input: "const x = 10; const y = '10'; const isStrictEqual = x === y;",
+    question: "What will be the value of `isStrictEqual`?",
+    options: ["true", "false", "undefined", "null"],
+    correctAnswer: "false"
+  },
+  {
+    id: 5,
+    input: "const arr = [1, 2, 3]; arr.push(4);",
+    question: "What will be the value of `arr`?",
+    options: ["[1, 2, 3]", "[1, 2, 3, 4]", "[4, 3, 2, 1]", "[undefined]"],
+    correctAnswer: "[1, 2, 3, 4]"
+  },
+  {
+    id: 6,
+    input: "let x; const result = typeof x;",
+    question: "What will be the value of `result`?",
+    options: ["'undefined'", "'object'", "'number'", "'null'"],
+    correctAnswer: "'undefined'"
+  },
+  {
+    id: 7,
+    input: "const obj = { a: 1 }; delete obj.a;",
+    question: "What will be the value of `obj`?",
+    options: ["{}", "{ a: 1 }", "null", "undefined"],
+    correctAnswer: "{}"
+  },
+  {
+    id: 8,
+    input: "const arr = [1, 2, 3]; const result = arr.slice(1);",
+    question: "What will be the value of `result`?",
+    options: ["[1]", "[1, 2]", "[2, 3]", "[1, 2, 3]"],
+    correctAnswer: "[2, 3]"
+  },
+  {
+    id: 9,
+    input: "const x = 5; const result = x > 3 ? 'yes' : 'no';",
+    question: "What will be the value of `result`?",
+    options: ["'yes'", "'no'", "'undefined'", "'null'"],
+    correctAnswer: "'yes'"
+  },
+  {
+    id: 10,
+    input: "const x = [1, 2, 3]; const result = x instanceof Array;",
+    question: "What will be the value of `result`?",
+    options: ["true", "false", "undefined", "null"],
+    correctAnswer: "true"
+  },
+  {
+    id: 11,
+    input: "const x = 5; const y = '5'; const result = x + y;",
+    question: "What will be the value of `result`?",
+    options: ["10", "'55'", "'5'", "'undefined'"],
+    correctAnswer: "'55'"
+  },
+  {
+    id: 12,
+    input: "const obj = {}; Object.freeze(obj); obj.a = 1;",
+    question: "What will be the value of `obj`?",
+    options: ["{}", "{ a: 1 }", "null", "undefined"],
+    correctAnswer: "{}"
+  },
+  {
+    id: 13,
+    input: "const arr = [1, 2, 3]; arr.splice(1, 1);",
+    question: "What will be the value of `arr`?",
+    options: ["[1, 2, 3]", "[1, 3]", "[2, 3]", "[1]"],
+    correctAnswer: "[1, 3]"
+  },
+  {
+    id: 14,
+    input: "const arr = [1, 2, 3]; const result = arr.includes(2);",
+    question: "What will be the value of `result`?",
+    options: ["true", "false", "undefined", "null"],
+    correctAnswer: "true"
+  },
+  {
+    id: 15,
+    input: "const arr = [1, 2, 3]; const result = arr.find(x => x > 2);",
+    question: "What will be the value of `result`?",
+    options: ["1", "2", "3", "undefined"],
+    correctAnswer: "3"
+  },
+  {
+    id: 16,
+    input: "let x = 5; x++;",
+    question: "What will be the value of `x`?",
+    options: ["4", "5", "6", "undefined"],
+    correctAnswer: "6"
+  },
+  {
+    id: 17,
+    input: "let x = 'Hello'; x[0] = 'h';",
+    question: "What will be the value of `x`?",
+    options: ["'hello'", "'Hello'", "'hHello'", "'undefined'"],
+    correctAnswer: "'Hello'"
+  },
+  {
+    id: 18,
+    input: "const obj = { a: 1 }; const result = 'a' in obj;",
+    question: "What will be the value of `result`?",
+    options: ["true", "false", "undefined", "null"],
+    correctAnswer: "true"
+  },
+  {
+    id: 19,
+    input: "const arr = [1, 2, 3]; const result = arr.reverse();",
+    question: "What will be the value of `result`?",
+    options: ["[1, 2, 3]", "[3, 2, 1]", "[2, 1, 3]", "[undefined]"],
+    correctAnswer: "[3, 2, 1]"
+  },
+  {
+    id: 20,
+    input: "let x = 10; x += 5;",
+    question: "What will be the value of `x`?",
+    options: ["5", "10", "15", "undefined"],
+    correctAnswer: "15"
+  },
+  {
+    id: 21,
+    input: "const arr = [1, 2, 3]; const result = arr.join('-');",
+    question: "What will be the value of `result`?",
+    options: ["'1-2-3'", "'1,2,3'", "'123'", "'undefined'"],
+    correctAnswer: "'1-2-3'"
+  },
+  {
+    id: 22,
+    input: "const str = 'hello'; const result = str.toUpperCase();",
+    question: "What will be the value of `result`?",
+    options: ["'hello'", "'HELLO'", "'Hello'", "'undefined'"],
+    correctAnswer: "'HELLO'"
+  },
+  {
+    id: 23,
+    input: "const str = 'hello'; const result = str.indexOf('e');",
+    question: "What will be the value of `result`?",
+    options: ["1", "-1", "0", "undefined"],
+    correctAnswer: "1"
+  },
+  {
+    id: 24,
+    input: "const x = 10; const y = 5; const result = x % y;",
+    question: "What will be the value of `result`?",
+    options: ["0", "1", "5", "undefined"],
+    correctAnswer: "0"
+  },
+  {
+    id: 25,
+    input: "const arr = [1, 2, 3]; const result = arr.filter(x => x > 1);",
+    question: "What will be the value of `result`?",
+    options: ["[1]", "[1, 2]", "[2, 3]", "[3]"],
+    correctAnswer: "[2, 3]"
+  },
+  {
+    id: 26,
+    input: "const str = 'hello'; const result = str.charAt(0);",
+    question: "What will be the value of `result`?",
+    options: ["'h'", "'e'", "'o'", "'undefined'"],
+    correctAnswer: "'h'"
+  },
+  {
+    id: 27,
+    input: "const arr = [1, 2, 3]; const result = arr.pop();",
+    question: "What will be the value of `result`?",
+    options: ["1", "2", "3", "undefined"],
+    correctAnswer: "3"
+  },
+  {
+    id: 28,
+    input: "const x = NaN; const result = isNaN(x);",
+    question: "What will be the value of `result`?",
+    options: ["true", "false", "undefined", "null"],
+    correctAnswer: "true"
+  },
+  {
+    id: 29,
+    input: "const arr = [1, 2, 3]; const result = arr.reduce((a, b) => a + b, 0);",
+    question: "What will be the value of `result`?",
+    options: ["6", "0", "1", "undefined"],
+    correctAnswer: "6"
+  },
+  {
+    id: 30,
+    input: "let x; const result = x ?? 'default';",
+    question: "What will be the value of `result`?",
+    options: ["undefined", "'default'", "null", "0"],
+    correctAnswer: "'default'"
+  }
+];
 
 export const INITAIL_data_javascript=
     [
@@ -886,7 +1098,7 @@ export const initial_data_Mongoose=[
       }
     }
   },
-  
+
   
   
   

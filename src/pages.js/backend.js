@@ -1,14 +1,14 @@
 import styled from "styled-components"
 import { Display } from "../Component/dispaly"
-import { INITAIL_data_javascript } from "../data"
+import { INITAIL_data_javascript, initial_data_Mongoose } from "../data"
 
-export const JavaScript=()=>{
+export const Backend=()=>{
     return (
         <div>
-
+            
             <h1>JavaScript</h1>
             <Container>
-            {INITAIL_data_javascript.map((el,index)=>(
+            {initial_data_Mongoose.map((el,index)=>(
                 <Div>
                     <div>
                     <h1>{index+1}:-{el.Q}</h1>
